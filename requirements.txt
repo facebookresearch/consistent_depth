@@ -1,0 +1,18 @@
+h5py
+scikit-image
+# opencv-contrib-python==3.4.2.16 is required for using SURF
+# python3.6 is required for installing opencv-contrib-python==3.4.2.16
+opencv-contrib-python==3.4.2.16
+torch==1.4.0+cu100
+torchvision==0.5.0+cu100
+numpy
+tensorboard
+# flownet2
+scikit-image
+tensorboardX
+colorama
+tqdm
+setproctitle
+wget
+gdown
+pypng

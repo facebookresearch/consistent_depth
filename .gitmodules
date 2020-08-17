@@ -1,0 +1,18 @@
+[submodule "flownet2"]
+	path = third_party/flownet2
+	url = https://github.com/roxanneluo/flownet2-pytorch.git
+[submodule "monodepth/mannequin_challenge"]
+	path = monodepth/mannequin_challenge
+	url = https://github.com/roxanneluo/mannequinchallenge.git
+[submodule "monodepth/midas_v2"]
+	path = monodepth/midas_v2
+	url = https://github.com/roxanneluo/MiDaS-1.git
+[submodule "monodepth/monodepth2"]
+	path = monodepth/monodepth2
+	url = https://github.com/roxanneluo/monodepth2.git
+[submodule "third_party/OpticalFlowToolkit"]
+	path = third_party/OpticalFlowToolkit
+	url = https://github.com/roxanneluo/OpticalFlowToolkit.git
+[submodule "third_party/colmap"]
+	path = third_party/colmap
+	url = https://github.com/colmap/colmap.git
