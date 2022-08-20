@@ -5,9 +5,9 @@ set -exo
 results_dir="$1"
 
 mkdir -p data/videos/
-wget https://www.dropbox.com/s/9a2kb7flg3o1eb5/ayush_color.mp4?dl=1 -O data/videos/ayush.mp4
+gdown https://drive.google.com/uc?id=1y6_L3uXwsDQV-_ajmba1hWuS8GFZ75_8 -O data/videos/ayush.mp4
 
 mkdir -p "${results_dir}"
-wget https://www.dropbox.com/s/7mbvu60qbs7hzod/ayush_colmap.zip?dl=1 -O "${results_dir}/ayush_colmap.zip"
+gdown https://drive.google.com/uc?id=1jamL_Gv4DjodXiVx1U9ze__Nv9tER3LH -O "${results_dir}/ayush_colmap.zip"
 unzip "${results_dir}/ayush_colmap.zip" -d "${results_dir}"
 rm "${results_dir}/ayush_colmap.zip"
